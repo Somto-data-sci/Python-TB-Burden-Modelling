@@ -1,0 +1,19 @@
+Model Accuracy on Test Data: 0.9482
+
+Classification Report (Key Metrics):
+                precision    recall  f1-score   support
+
+ Low Mortality       0.96      0.97      0.97       793
+High Mortality       0.91      0.88      0.90       268
+
+      accuracy                           0.95      1061
+     macro avg       0.94      0.92      0.93      1061
+  weighted avg       0.95      0.95      0.95      1061
+
+
+Model Coefficients (Feature Importance):
+ - Estimated prevalence of TB (all forms) per 100 000 population: 0.0100
+ - Estimated HIV in incident TB (percent): 0.0114
+ - Case detection rate (all forms), percent: -0.0473
+
+Process finished with exit code 0
